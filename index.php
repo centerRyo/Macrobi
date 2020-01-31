@@ -3,12 +3,13 @@
 <head>
     <meta charset="utf-8">
     <title>Macrobi</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="app.css">
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic|Sigmar+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <h1>Macrobi</h1>
+        <h1><a href="">Macrobi</a></h1>
         <nav id="top-nav">
         <ul>
             <li><a href="login.php">ログイン</a></li>
