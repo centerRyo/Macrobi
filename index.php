@@ -84,5 +84,8 @@
     </main>
 
     <footer class="footer">Copyright Macrobi. All Right Reserved.</footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
