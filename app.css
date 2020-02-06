@@ -1,6 +1,7 @@
 /* ===============================
 base
 =============================== */
+
 body {
     font-family: 'Sawarabi Gothic', sans-serif;
     line-height: 1.6;
@@ -11,16 +12,18 @@ body {
     margin: 0 auto;
 }
 
+
 /* ===============================
 ヘッダー
 =============================== */
+
 .header {
     overflow: hidden;
     height: 80px;
 }
 
 .header h1 {
-    font-size: 28px;
+    font-size: 30px;
     line-height: 80px;
     float: left;
     margin-left: 15px;
@@ -34,7 +37,7 @@ body {
 
 .top-img {
     width: 100%;
-    height: 650px;
+    height: 550px;
     object-fit: cover;
 }
 
@@ -44,6 +47,7 @@ body {
     height: 80px;
     position: relative;
 }
+
 #top-nav ul {
     width: 100%;
     height: 100%;
@@ -53,7 +57,7 @@ body {
     font-size: 14px;
     float: left;
     list-style-type: none;
-    margin-left: 15px;
+    margin-left: 20px;
     padding: 5px 10px;
     line-height: 80px;
 }
@@ -67,4 +71,142 @@ body {
 #top-nav a:hover {
     color: #1dbb2a;
     transition: .5s transform;
+}
+
+
+/* ===============================
+メイン
+=============================== */
+
+.main {
+    background: #f6f5f5;
+    padding-bottom: 80px;
+}
+
+#about,
+#menu,
+#contact {
+    margin-top: 80px;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+}
+
+#about p {
+    line-height: 1.9;
+    font-size: 18px;
+}
+
+#menu p {
+    line-height: 1.9;
+    font-size: 18px;
+}
+
+.regist {
+    margin-top: 80px;
+}
+
+.regist h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.regist h1 a {
+    color: #1dbb2a;
+}
+
+.contact-container {
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #d4d3d3;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.contact__list {
+    border-radius: 3px;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.contact__list label {
+    margin-bottom: 0;
+    text-align: right;
+    width: 30%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 30px;
+}
+
+.contact__list .required {
+    margin-left: 5px;
+    color: #fff;
+    font-size: 12px;
+    background: #ff5454;
+    border-radius: 2px;
+    padding: 5px;
+    box-sizing: border-box;
+    position: relative;
+    top: -2px;
+}
+
+.contact__list input[type="text"] {
+    display: block;
+    float: right;
+    width: 60%;
+    height: 30px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #555;
+    border: none;
+    border-radius: 4px;
+}
+
+.contact__list textarea {
+    display: block;
+    float: right;
+    width: 60%;
+    height: 200px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #555;
+    border: none;
+    border-radius: 4px;
+}
+
+#contact button {
+    font-size: 18px;
+    padding: 15px 10px;
+    border: none;
+    color: #fff;
+    background: #333;
+    border-radius: 5px;
+    float: right;
+    position: relative;
+    right: 20px;
+    margin-top: 20px;
+    width: 120px;
+}
+
+
+/* ===============================
+フッター
+=============================== */
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 60px;
 }

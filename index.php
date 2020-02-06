@@ -21,10 +21,24 @@
     </header>
 
     <main class="main">
-        <img class="top-img" src="images/salad.jpg" alt="ヒーローバナー">
+        <img class="top-img" src="images/food-3270461_1920.jpg" alt="ヒーローバナー">
         <section id="about" class="site-width">
             <h1 class="title">ABOUT</h1>
             <p>
+                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
+                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
+                sample text.sample text.sample text.sample.<br>
+                sample text.sample text.sample text.
+                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
+                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
+                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
+                sample text.sample text.sample text.
+            </p>
+            <p>
+                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
+                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
+                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
+                sample text.sample text.sample text.
                 sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
                 sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
                 sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
@@ -41,32 +55,34 @@
                 sample text.sample text.sample text.
             </p>
         </section>
-        <section class="site-width">
+
+        <section class="site-width regist">
             <h1>新規登録は<a href="signup.php">こちら</a>から</h1>
             <h1>ログインは<a href="login.php">こちら</a>から</h1>
         </section>
-        <section class="site-width">
+
+        <section id="contact" class="site-width">
+            <h1 class="title">CONTACT</h1>
             <form method="post">
-                <h1 class="title">CONTACT</h1>
-                <table>
-                        <tr>
-                            <th>お名前</th>
-                            <td><input type="text" name="name"></td>
-                        </tr>
-                        <tr>
-                            <th>メールアドレス</th>
-                            <td><input type="text" name="email"></td>
-                        </tr>
-                        <tr>
-                            <th>お問い合わせ内容</th>
-                            <td><textarea name="comment"></textarea></td>
-                        </tr>
-                </table>
-                <input type="submit" value="送信する">
+                <section class="contact-container">
+                    <div class="contact__list">
+                        <label>お名前<span class="required">必須</span></label>
+                        <input type="text" name="name" placeholder="例)山田太郎" value="">
+                    </div>
+                    <div class="contact__list">
+                        <label>メールアドレス<span class="required">必須</span></label>
+                        <input type="text" name="email" placeholder="a@aaa.com" value="">
+                    </div>
+                    <div class="contact__list">
+                        <label>お問い合わせ内容<span class="required">必須</span></label>
+                        <textarea name="comment" placeholder="お問い合わせ内容を入力"></textarea>
+                    </div>
+                    <button type="submit">送信する</button>
+                </section>
             </form>
         </section>
     </main>
 
-    <footer class="footer">CopyRight Macrobi. All Right Reserved.</footer>
+    <footer class="footer">Copyright Macrobi. All Right Reserved.</footer>
 </body>
 </html>
