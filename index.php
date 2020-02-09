@@ -77,6 +77,7 @@
                         <label>お問い合わせ内容<span class="required">必須</span></label>
                         <textarea name="comment" placeholder="お問い合わせ内容を入力"></textarea>
                     </div>
+                    <div class="counter-container"><span class="js-count-text">0</span>/200</div>
                     <button type="submit">送信する</button>
                 </section>
             </form>
@@ -84,5 +85,8 @@
     </main>
 
     <footer class="footer">Copyright Macrobi. All Right Reserved.</footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
