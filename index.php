@@ -24,25 +24,18 @@
         <img class="top-img" src="images/food-3270461_1920.jpg" alt="ヒーローバナー">
         <section id="about" class="site-width">
             <h1 class="title">ABOUT</h1>
+            <p>みんなでおいしく</p>
+            <p>みんなが楽しく、笑顔になれる</p>
+            <p>"Macrobi"スタイルの</p>
+            <p>カラダにやさしいお料理</p>
+            <p>世界中に笑顔の輪を広げます。</p>
+            <p>やさしくおいしいヴィーガンフードを味わいながら大切な方とゆっくりお過ごし下さい。</p>
             <p>
-                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
-                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
-                sample text.sample text.sample text.sample.<br>
-                sample text.sample text.sample text.
-                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
-                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
-                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
-                sample text.sample text.sample text.
-            </p>
-            <p>
-                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
-                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
-                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
-                sample text.sample text.sample text.
-                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
-                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
-                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
-                sample text.sample text.sample text.
+                We use plenty of vegetables, soy meat and soy milk,<br>
+                and are paticular about good taste.<br>
+                As various food culture exist, we would like you to enjoy<br>
+                a new style of eating.<br>
+                which allows all people to enjoy eating together.
             </p>
         </section>
 
