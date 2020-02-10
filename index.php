@@ -66,7 +66,8 @@
             <form method="post">
                 <section class="contact-container">
                     <div class="contact__list">
-                        <label>お名前<span class="required">必須</span></label>
+                        <label>お名前<span class="required">必須</span>
+                        </label>
                         <input class="js-valid-text" type="text" name="name" placeholder="例)山田太郎" value="">
                         <span class="area-msg"></span>
                     </div>
@@ -78,8 +79,8 @@
                     <div class="contact__list">
                         <label>お問い合わせ内容<span class="required">必須</span></label>
                         <textarea name="comment" class="js-count-text js-valid-comment" placeholder="お問い合わせ内容を入力"></textarea>
+                        <span class="counter-container"><span class="js-show-count-text">0</span>/200</span>
                     </div>
-                    <div class="counter-container"><span class="js-show-count-text">0</span>/200</div>
                     <button type="submit">送信する</button>
                 </section>
             </form>
