@@ -92,6 +92,7 @@ body {
 .title {
     font-size: 30px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 #about p {
@@ -115,6 +116,11 @@ body {
 
 .regist h1 a {
     color: #1dbb2a;
+    text-decoration: none;
+}
+
+.regist h1 a:hover {
+    text-decoration: underline;
 }
 
 .contact-container {
@@ -129,17 +135,14 @@ body {
 }
 
 .contact__list {
-    border-radius: 3px;
     padding: 10px 20px;
     overflow: hidden;
 }
 
 .contact__list label {
-    margin-bottom: 0;
     text-align: right;
     width: 30%;
     float: left;
-    padding-right: 15px;
     padding-left: 15px;
     line-height: 30px;
 }
@@ -157,7 +160,6 @@ body {
 }
 
 .contact__list input[type="text"] {
-    display: block;
     float: right;
     width: 60%;
     height: 30px;
@@ -170,7 +172,6 @@ body {
 }
 
 .contact__list textarea {
-    display: block;
     float: right;
     width: 60%;
     height: 200px;
@@ -182,18 +183,27 @@ body {
     border-radius: 4px;
 }
 
+.counter-container {
+    float: right;
+}
+
 #contact button {
     font-size: 18px;
     padding: 15px 10px;
     border: none;
     color: #fff;
-    background: #333;
+    background: #1dbb2a;
     border-radius: 5px;
     float: right;
     position: relative;
     right: 20px;
     margin-top: 20px;
     width: 120px;
+}
+
+#contact button:hover {
+    cursor: pointer;
+    background: #36d443;
 }
 
 
