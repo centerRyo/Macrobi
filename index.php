@@ -73,6 +73,7 @@
                         <label>お問い合わせ内容<span class="required">必須</span></label>
                         <textarea name="comment" class="js-count-text js-valid-comment" placeholder="お問い合わせ内容を入力"></textarea>
                         <span class="counter-container"><span class="js-show-count-text">0</span>/200</span>
+                        <span class="area-msg_textarea"></span>
                     </div>
                     <button type="submit">送信する</button>
                 </section>
