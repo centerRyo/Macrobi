@@ -158,6 +158,18 @@ body {
     top: -2px;
 }
 
+.contact__list .option {
+    margin-left: 5px;
+    color: #fff;
+    font-size: 12px;
+    background: #3d8ee4;
+    border-radius: 2px;
+    padding: 5px;
+    box-sizing: border-box;
+    position: relative;
+    top: -2px;
+}
+
 .contact__list input[type="text"] {
     display: block;
     width: 60%;
