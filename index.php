@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header site-width">
-        <h1><a href="">Macrobi</a></h1>
+        <h1><a href="index.php">Macrobi</a></h1>
         <nav id="top-nav">
         <ul>
             <li><a href="index.php">TOP</a></li>
