@@ -88,7 +88,7 @@
     <main class="main">
       <section class="form-container">
         <h1 class="form-title">新規登録</h1>
-        <form action="mypage.php" method="post" class="form">
+        <form action="" method="post" class="form">
           <label>
             メールアドレス
             <input type="text" name="email" placeholder="Email" value="<?php if(!empty($_POST['email'])) echo $_POST['email'] ?>">
