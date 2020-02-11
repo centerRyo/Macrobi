@@ -208,8 +208,8 @@ body {
     color: #ff5454;
 }
 
-.has-error input, .has-error textarea {
-    border: 1px solid #ff5454
+.has-error input[type="text"], .has-error textarea {
+    background: #f5a4a4;
 }
 
 /* ===============================
