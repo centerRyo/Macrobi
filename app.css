@@ -83,7 +83,7 @@ body {
     padding-bottom: 80px;
 }
 
-#about,
+#concept,
 #menu,
 #contact {
     margin-top: 80px;
@@ -95,10 +95,17 @@ body {
     margin-bottom: 30px;
 }
 
-#about p {
+#concept p {
     line-height: 3.0;
     font-size: 20px;
     text-align: center;
+}
+
+#concept section {
+    line-height: 1.8;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
 }
 
 #menu p {

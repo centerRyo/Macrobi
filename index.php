@@ -13,7 +13,7 @@
         <nav id="top-nav">
         <ul>
             <li><a href="index.php">TOP</a></li>
-            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#concept">CONCEPT</a></li>
             <li><a href="#menu">MENU</a></li>
             <li><a href="#contact">CONTACT</a></li>
         </ul>
@@ -22,21 +22,21 @@
 
     <main class="main">
         <img class="top-img" src="images/food-3270461_1920.jpg" alt="ヒーローバナー">
-        <section id="about" class="site-width">
-            <h1 class="title">ABOUT</h1>
+        <section id="concept" class="site-width">
+            <h1 class="title">CONCEPT</h1>
             <p>みんなでおいしく</p>
             <p>みんなが楽しく、笑顔になれる</p>
             <p>"Macrobi"スタイルの</p>
             <p>カラダにやさしいお料理</p>
             <p>世界中に笑顔の輪を広げます。</p>
             <p>やさしくおいしいヴィーガンフードを味わいながら大切な方とゆっくりお過ごし下さい。</p>
-            <p>
+            <section>
                 We use plenty of vegetables, soy meat and soy milk,<br>
                 and are paticular about good taste.<br>
                 As various food culture exist, we would like you to enjoy<br>
                 a new style of eating.<br>
                 which allows all people to enjoy eating together.
-            </p>
+            </section>
         </section>
 
         <section id="menu" class="site-width">
