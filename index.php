@@ -41,12 +41,30 @@
 
         <section id="menu" class="site-width">
             <h1 class="title">MENU</h1>
-            <p>
-                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
-                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
-                sample text.sample text.sample text.sample text.sample text.sample text.sample text.sample text.
-                sample text.sample text.sample text.
-            </p>
+            <section class="menu__panel">
+                <h2 class="menu__title">LUNCH MENU</h2>
+                <img src="images/menu1.jpeg" alt="">
+                <p>● 2ディッシュコンボ（デリから2種+玄米orピタパン）</p>
+                <p>● 3ディッシュコンボ（デリから3種+玄米orピタパン）</p>
+                <p>など</p>
+                <p><a href="">詳しくはこちら</a></p>
+            </section>
+            <section class="menu__panel">
+                <h2 class="menu__title">DINNER MENU</h2>
+                <img src="images/menu2.jpg" alt="">
+                <p>● BEAST BURGER</p>
+                <p>● ビーガンハンバーグ</p>
+                <p>など</p>
+                <p><a href="">詳しくはこちら</a></p>
+            </section>
+            <section class="menu__panel">
+                <h2 class="menu__title">DRINK MENU</h2>
+                <img src="images/menu3.jpg" alt="">
+                <p>● キリン　ハートランド</p>
+                <p>● マス・ド・ジャニーニ</p>
+                <p>など</p>
+                <p><a href="">詳しくはこちら</a></p>
+            </section>
         </section>
 
         <section class="site-width regist">
