@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Macrobi</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic|Sigmar+One&display=swap" rel="stylesheet">
 </head>
 <body>
