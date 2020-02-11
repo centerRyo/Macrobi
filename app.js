@@ -1,5 +1,8 @@
 $(function() {
+
+  // =============================================
   // 文字数カウント
+  // =============================================
   $('.js-count-text').on('keyup', function() {
     var count = $(this).val().length;
 
@@ -58,4 +61,21 @@ $(function() {
       contact_g.find('.area-msg_textarea').text('');
     }
   });
+
+  // =============================================
+  // 電話番号フォーマット
+  // =============================================
+  $('.js-format-number').on('change', function() {
+    var format_before = $(this).val();
+
+    format_before = format_before.replace(/-/g, '');
+    var format_after = format_before.replace(/[Ａ-Ｚａ-ｚ０-９]/g, function(s) {
+      return String.fromCharCode(s.charCodeAt(0) - 65248);
+    });
+    if (format_after.length === 11) {
+      $(this).val(format_after.substr(0, 3) + '-' + format_after.substr(3, 4) + '-' + format_after.substr(7, 4));
+    } else {
+      $(this).val(format_after);
+    }
+  })
 });
