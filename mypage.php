@@ -19,7 +19,11 @@
     </header>
 
     <main class="main">
-      
+        <section class="site-width">
+            <h1>こんにちは！ゲストさん</h1>
+            <p>あなたのユーザーネームは〇〇です</p>
+            <p>あなたのメールアドレスは〇〇@〇〇.comです</p>
+        </section>
     </main>
 
     <footer class="footer">Copyright Macrobi. All Right Reserved.</footer>
